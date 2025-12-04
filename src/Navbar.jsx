@@ -3,7 +3,7 @@ import plusImg from "./assets/plus.png";
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="font">
       <div className="navbar bg-base-100 shadow-sm">
         <div className="container mx-auto">
           <div className="navbar-start">
