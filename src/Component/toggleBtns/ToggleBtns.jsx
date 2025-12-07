@@ -3,7 +3,7 @@ import React from "react";
 const ToggleBtns = ({ toggle, setToggle }) => {
   let btns = ["All", "Pending", "Submited", "Reviewed"];
   return (
-    <div>
+    <div className="font">
       <div className="text-right container mx-auto mt-5 md:mt-10 mb-5 md:mb-10">
         {btns.map((btn, ind) => {
           return (
